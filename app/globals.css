@@ -12,6 +12,15 @@
   --color-charcoal:      #1C1C1E;
   --color-muted:         #6B6860;
   --color-border:        rgba(0, 0, 0, 0.10);
+
+  /* Hosur landing page (/hosur) — maroon/gold palette */
+  --color-deep-maroon:   #7B1B2E;
+  --color-warm-rose:     #C0435A;
+  --color-blush:         #F5E6EA;
+  --color-gold:          #C9861A;
+  --color-gold-light:    #FDF3E3;
+  --color-gold-accent:   #FFD98A;
+  --color-soft-gray:     #F7F5F3;
   --font-sans-tamil:     var(--font-noto-sans-tamil);
   --font-serif-tamil:    var(--font-noto-serif-tamil);
   --font-ui:             var(--font-inter);
