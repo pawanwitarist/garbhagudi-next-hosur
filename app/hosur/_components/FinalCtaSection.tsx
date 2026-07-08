@@ -6,7 +6,7 @@ export default function FinalCtaSection() {
     <section className="bg-gradient-to-br from-[#1A0A0F] via-[#4A1020] to-deep-maroon py-16 px-5 text-center text-white md:py-24 md:px-8">
       <SectionHeader
         eyebrow="உங்கள் கனவு இன்னும் உயிரோடு இருக்கிறது"
-        title="உங்கள் பெற்றோர் கனவு இன்னும் உயிரோடு இருக்கிறது."
+        title="உங்கள் பெற்றோர் ஆகும் கனவு இன்னும் உயிரோடு இருக்கிறது."
         variant="dark"
       />
       <p className="text-[0.95rem] opacity-80 max-w-[500px] mx-auto mb-10 leading-[1.75] md:text-[1.05rem]">

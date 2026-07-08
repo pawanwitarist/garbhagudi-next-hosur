@@ -8,7 +8,7 @@ import { PHONE_HREF, PHONE_DISPLAY } from "@/app/_lib/constants";
 const benefits = [
   "இலவச முதல் ஆலோசனை – எந்த கட்டணமும் இல்லை",
   "அனுபவமிக்க மருத்துவர்களிடம் நேரடி சந்திப்பு",
-  "தமிழில் விவாதிக்கலாம் – இடைத்தடை இல்லை",
+  "தமிழிலோ அல்லது తెలుగులో விவாதிக்கலாம் – இடைத்தடை இல்லை",
   "உங்கள் தகவல்கள் முற்றிலும் ரகசியமாக பாதுகாக்கப்படும்",
   "EMI வசதியில் சிகிச்சை – வசதியான கட்டணத் திட்டம்",
 ];
@@ -121,7 +121,7 @@ export default function FormSection() {
               </select>
             </Field>
 
-            <Field id="duration" label="எத்தனை ஆண்டுகளாக முயற்சிக்கிறீர்கள்?">
+            <Field id="duration" label="எத்தனை குழந்தைக்காக முயற்சிக்கிறீர்கள்?">
               <select id="duration" name="duration" defaultValue="" className={inputCls}>
                 <option value="" disabled>
                   தேர்வு செய்யவும்

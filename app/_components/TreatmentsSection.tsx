@@ -5,9 +5,9 @@ const treatments = [
   { Icon: FlaskConical, name: "IVF", desc: "உயிரணு கருத்தரிப்பு" },
   { Icon: Microscope, name: "ICSI", desc: "நேரடி கருத்தரிப்பு" },
   { Icon: Syringe, name: "IUI", desc: "கருப்பை கருத்தரிப்பு" },
-  { Icon: Activity, name: "TESA/PESA", desc: "ஆண் மலட்டுத்தன்மை" },
+  { Icon: Activity, name: "TESA/PESA", desc: "ஆண்மை குறைவு சிகிச்சை" },
   { Icon: Sparkles, name: "Blastocyst", desc: "கருவளர்ப்பு சிகிச்சை" },
-  { Icon: Heart, name: "இயற்கை கருத்தரிப்பு", desc: "Natural Conception" },
+  { Icon: Heart, name: "Natural Conception", desc: "இயற்கை கருத்தரிப்பு" },
 ];
 
 export default function TreatmentsSection() {

@@ -9,7 +9,12 @@ const specialties = [
   "Holistic & Evidence-based Approach",
 ];
 
-const languages = ["தமிழ்", "English", "Kannada"];
+const languages = [
+  { en: "Tamil", ta: "தமிழ்" },
+  { en: "English", ta: "ஆங்கிலம்" },
+  { en: "Telugu", ta: "தெலுங்கு" },
+  { en: "Kannada", ta: "கன்னடம்" },
+];
 
 export default function DoctorSection() {
   return (
@@ -43,10 +48,14 @@ export default function DoctorSection() {
           <div className="flex gap-2 flex-wrap mb-4">
             {languages.map((lang) => (
               <span
-                key={lang}
-                className="bg-blush text-deep-maroon text-[13px] px-3 py-1 rounded-full border border-deep-maroon/[0.18] font-medium"
+                key={lang.en}
+                className="inline-flex items-center gap-2 bg-blush text-deep-maroon px-3.5 py-1.5 rounded-full border border-deep-maroon/[0.18]"
               >
-                🗣️ {lang}
+                <span className="text-[13px]" aria-hidden="true">🗣️</span>
+                <span className="leading-tight">
+                  <span className="block text-[13px] font-semibold">{lang.en}</span>
+                  <span className="block text-[11px] text-deep-maroon/70 font-sans-tamil">{lang.ta}</span>
+                </span>
               </span>
             ))}
           </div>

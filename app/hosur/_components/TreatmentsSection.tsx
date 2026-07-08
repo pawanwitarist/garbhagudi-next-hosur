@@ -4,10 +4,18 @@ const treatments: { icon: string; label: string }[] = [
   { icon: "🔬", label: "IVF" },
   { icon: "🧬", label: "ICSI" },
   { icon: "🌱", label: "IUI" },
-  { icon: "👨", label: "ஆண் மலட்டுத்தன்மை" },
+  { icon: "👨", label: "Male Infertility" },
   { icon: "🥚", label: "Egg Freezing" },
   { icon: "🌸", label: "Fertility Preservation" },
   { icon: "🤝", label: "Donor Programs" },
+  { icon: "🔎", label: "Laparoscopy" },
+  { icon: "🔭", label: "Hysteroscopy" },
+  { icon: "💠", label: "Varicocele" },
+  { icon: "💉", label: "PESA/TESA" },
+  { icon: "❄️", label: "Semen Freezing" },
+  { icon: "🔄", label: "Sequential Transfer" },
+  { icon: "🧲", label: "MACS" },
+  { icon: "✨", label: "Endometrial Rejuvenation" },
 ];
 
 export default function TreatmentsSection() {
